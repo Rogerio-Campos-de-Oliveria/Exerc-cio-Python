@@ -5,6 +5,7 @@ e tangente desse ângulo.'''
 import math
 
 angulo = float(input('Digite o ângulo que você deseja saber: '))
+
 # O python conhece o valor do ângulo como radianos, então precisamos converter o valor digiado como radiano primeiro.
 número = math.radians(angulo)
 
