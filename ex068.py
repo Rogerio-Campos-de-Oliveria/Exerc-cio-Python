@@ -21,5 +21,12 @@ while True:
         else:
             print('Você PERDEU!')
             break
+    if tipo == 'I':
+        if total % 2 == 1:
+            print('Você VENCEU!')
+            v += 1
+        else:
+            print('Você PERDEU!')
+            break
     print('Vamos jogar novamente....')
 print(f'GAME OVER! Você venceu {v} vezes.')

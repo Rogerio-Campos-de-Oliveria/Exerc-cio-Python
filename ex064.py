@@ -9,7 +9,7 @@ saldo = núm = 0
 cont = 0
 
 while núm != 999:
-    núm = int(input('Digite um número, para encerrar digite 999: '))
+    núm = int(input('Digite um número [para encerrar digite 999]: '))
     if núm != 999:
         saldo = saldo + núm
         cont += 1
