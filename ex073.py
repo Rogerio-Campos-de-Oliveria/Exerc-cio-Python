@@ -19,8 +19,9 @@ times = ('Palmeiras','Flamengo',
          'Sport Recife', 'America-MG', 
          'Vitoria', 'Parana' )
 
+
 print('=-=' * 20)
-print('RESULTADO BRASILEIRÃO/2018')
+print("{:^50}".format("RESULTADO BRASILEIRÃO/2018"))
 print('=-=' * 20)
 print(f'Os 5 primeiros times do Brasileirão/2018 fora {times[:5]}')
 print('=-=' * 20)
