@@ -15,6 +15,7 @@ while True:
         valores_par.append(n)
     else:
         valores_impar.append(n)
+    
     resp = ' '
     while resp not in 'SN':
         resp = str(input('Deseja continuar? [S/N] ')).upper().strip()[0]
