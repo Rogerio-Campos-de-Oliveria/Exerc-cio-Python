@@ -33,7 +33,7 @@ while True:
     if resp == 'N':
         break
     
-#Cálculo dos dados    
+#Mostrando os dados    
 print('=-=' * 20)
 print('  Cod ', end='')
 for i in dados.keys():
