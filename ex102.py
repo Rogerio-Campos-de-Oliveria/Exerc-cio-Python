@@ -19,6 +19,7 @@ def fatorial(num, show=False):
     
     return f
     
+#Principal Programa
 
 n = int(input('Digite o número que deseja ver o fatorial: '))
 situação = ' '
