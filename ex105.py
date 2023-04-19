@@ -10,21 +10,38 @@ informações:
 – A situação (opcional) ''' 
 
 def notas(dados):
-    print(f'A maior nota é {max(dados)}')
-    print(f'A maior nota é {min(dados)}')
+    """_Função para analisar notas e situação de vários alunos_
+
+    Args:
+        dados (_type_): _Um ou mais notas dos alunos (aceita várias_
+        sit:  valor opcional , indicando se deve ou não adicionar a situação do aluno
+
+    Returns:
+        _type_: _dicionário com várias informações sobre a situação da turma._
+    """
+    
+    r = f'Total de nota é {len(dados)}'
+    r = f'A maior nota é {max(dados)}'
+    r = f'A maior nota é {min(dados)}'
+    
     média = sum(dados) / len(dados)
-    print(f'A média nota é {média}')
+    r = f'A média nota é {média}'
     
+
+          
+   
     if média >= 7:
-        print(f'A situação do aluno é APROVADO.')
+        r = f'A situação do aluno é APROVADO.'
     elif média <= 5:
-        print(f'A situação do aluno é REPROVADO.')
+        r = f'A situação do aluno é REPROVADO.'
     elif 5.1 <= média <= 6.9:
-        print(f'A situação do aluno é RECUPERAÇÃO.')
-    
+        r = f'A situação do aluno é RECUPERAÇÃO.'
+
+    return r
     
     
 #Principal Programa
+
 
 lista = list()
 
@@ -39,6 +56,7 @@ while True:
     
     if resp == 'N':
         break
-    
 
-print(notas(lista))
+
+print(notas(lista))    
+
