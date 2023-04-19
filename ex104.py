@@ -12,12 +12,16 @@ def leiaInt(msg):
             valor = int(n)
             ok = True
         else:
+            print('=-=' * 20)
             print('\033[0;31mERRO! Digite um número inteiro válido.\033[m')
+            print('=-=' * 20)
         if ok:
             break
-    return valor
+    return f'Você acabou de digitar o número {valor}.'
  
 
 #Programa Principal
 n = leiaInt('Digite um número: ')
-print(f'Você acabou de digitar o número {n}.')
+print('=-=' * 20)
+print(n)
+print('=-=' * 20)
