@@ -8,7 +8,7 @@ def diminuir(preço, taxa):
     return res
 
 
-def dogro(preço):
+def dobro(preço):
     res = preço * 2
     return res
 
