@@ -1,11 +1,11 @@
+'''Exercício Python 111: Crie um pacote chamado
+ utilidadesCeV que tenha dois módulos internos
+ chamados moeda e dado. Transfira todas as
+ funções utilizadas nos desafios 107, 108 e 109
+ para o primeiro pacote e mantenha tudo
+ funcionando.'''
 
-'''Exercício Python 110: Adicione o módulo moeda.py
-criado nos desafios anteriores, uma função chamada
-resumo(), que mostre na tela algumas informações
-geradas pelas funções que já temos no módulo
-criado até aqui.'''
-
-from ex111 import moeda_111
+from ex111.utilidadescev import moeda
 
 
 
@@ -13,4 +13,4 @@ from ex111 import moeda_111
 
 
 p = float(input('Digite o preço: R$ '))
-moeda_111.resumo(p)
+moeda.resumo(p, 10, 80)
