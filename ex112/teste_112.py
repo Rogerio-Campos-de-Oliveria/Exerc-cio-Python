@@ -4,8 +4,8 @@ Crie uma função chamada leiaDinheiro() que seja capaz de
 funcionar como a função imputa(), mas com uma validação
 de dados para aceitar apenas valores que seja monetários.'''
 
-from ex112.utilidadescev import moeda
-from ex112.utilidadescev import dado
+from utilidadescev import moeda
+from utilidadescev import dado
 
 
 p = dado.leiaDinheiro('Digite o preço: R$ ')
