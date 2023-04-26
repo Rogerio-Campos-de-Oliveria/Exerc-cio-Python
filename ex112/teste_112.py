@@ -9,4 +9,4 @@ from utilidadescev import dado
 
 
 p = dado.leiaDinheiro('Digite o preço: R$ ')
-moeda.resumo(p, 10, 80)
+moeda.resumo(p, 10, 8)
