@@ -4,7 +4,6 @@ agora a possibilidade da digitação de um número
 de tipo inválido. Aproveite e crie também uma
 função leiaFloat() com a mesma funcionalidade.'''
 
-
 def leiaInt(msg):
     while True:
         try:
@@ -37,6 +36,7 @@ def leiaFloat(msg):
 
         else:
             return n
+
 
 
 
