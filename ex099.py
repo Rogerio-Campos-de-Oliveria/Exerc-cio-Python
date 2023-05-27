@@ -7,7 +7,7 @@ def numero(* num):
     print('\nAnalisando os valores passados...')
     for valor in num:
         print(f'{valor} ', end='', flush=True)
-        sleep(0.3)
+        sleep(0.4)
         if cont == 0:
             maior = valor
         else:
