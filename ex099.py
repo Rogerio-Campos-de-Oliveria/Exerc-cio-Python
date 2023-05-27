@@ -4,7 +4,7 @@ from time import sleep
 def numero(* num):
     maior = cont = 0
     print('=-=' * 20)
-    print('\nAnalisando os números.')
+    print('\nAnalisando os valores passados...')
     for valor in num:
         print(f'{valor} ', end='', flush=True)
         sleep(0.3)
@@ -14,7 +14,7 @@ def numero(* num):
             if valor > maior:
                 maior = valor
         cont += 1
-    print(f'Foram informados {cont} valores ao todo.')
+    print(f'\nForam informados {cont} valores ao todo.')
     print(f'O maior valor informado foi {maior}.')
     
     
